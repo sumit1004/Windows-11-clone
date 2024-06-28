@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+#vid{
+    width: 100%;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+#edge{
+    width: 37px;
+    height: 36px;
+}
+
+.tsk{
+    position: absolute;
+    right: 0;
+    margin: 2px;
+}
+
+.startmenu img{
+    border-radius: 10px;
+    width: 46%;
+}
+.startmenu{
+    position: absolute;
+    bottom: -572px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.filemenu{
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+    width: 100%;
+    bottom: -463px;
+}
+
+.searchmenu{
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+    width: 100%;
+    bottom: -556px;
+}
+.widgetmenu{
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+    width: 100%;
+    left: -884px;
+    top: 160px;
+}
+
+.taskmenu{
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+    width: 100%;
+    background-color: #eeeeee;
+    bottom: -129px;
+}
+
+.edgemenu{
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    bottom: -953px;
+}
+
+.edgemenu img{
+    width: 64%;
+}
+
+.msstore{
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    bottom: -953px;  
+}
+
+.msstore img{
+    width: 140%;
+}
+
+.recyclebin{
+    margin: 10px;
+    width: 78px;
+    height: 71px;
+} 
+
+.recycle{
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    bottom: -720px;
+    left: 292px;  
+  }
